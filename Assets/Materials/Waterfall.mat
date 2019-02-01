@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Waterfall
+  m_Shader: {fileID: 4800000, guid: d6c7f99cdb9da0545a8931d3b9340d95, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _DispMap:
+        m_Texture: {fileID: 2800000, guid: 8c77eebd10a006f488b1988417291f47, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DispTex:
+        m_Texture: {fileID: 2800000, guid: 8c77eebd10a006f488b1988417291f47, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NoiseTex:
+        m_Texture: {fileID: 2800000, guid: eee8bfa827f41a54cad344cc23a17a2d, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _DispAmm: 0.0099
+    - _FoamThreshold: 0.1
+    m_Colors:
+    - _BottomDark: {r: 0.18431371, g: 0.3121132, b: 1, a: 1}
+    - _BottomLight: {r: 0.5276789, g: 0.59064054, b: 0.9245283, a: 1}
+    - _FoamColor: {r: 1, g: 1, b: 1, a: 0}
+    - _TopDark: {r: 0, g: 0.15117007, b: 0.9528302, a: 1}
+    - _TopLight: {r: 0.4812656, g: 0.562068, b: 0.990566, a: 1}
